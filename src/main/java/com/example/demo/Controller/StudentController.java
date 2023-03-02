@@ -14,7 +14,7 @@ import com.example.demo.Service.StudentService;
 
 @RestController
 public class StudentController {
-	@Autowired //extends another class
+	@Autowired 
          StudentService stuService;
 	
 @PostMapping("/addDetails")
